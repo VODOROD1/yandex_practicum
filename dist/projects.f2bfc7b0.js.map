@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/js/projects.js"],"names":["trim"],"mappings":";;;;;;;eAAe,0GAGbA,IAHa","file":"projects.f2bfc7b0.js","sourceRoot":"..","sourcesContent":["export default `\r\n    <h1 class=\"cover-heading\">Projects page</h1>\r\n    <p class=\"lead\">Projects page content</p>\r\n`.trim()\r\n"]}

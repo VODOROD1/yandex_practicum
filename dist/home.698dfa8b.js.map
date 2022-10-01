@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/js/home.js"],"names":["trim"],"mappings":";;;;;;;eAAe,kGAGbA,IAHa","file":"home.698dfa8b.js","sourceRoot":"..","sourcesContent":["export default `\r\n    <h1 class=\"cover-heading\">Home page</h1>\r\n    <p class=\"lead\">Home page content</p>\r\n`.trim()\r\n"]}

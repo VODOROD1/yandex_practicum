@@ -16036,7 +16036,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _default = "\n<header class=\"masthead mb-auto\">\n    <div>\n        <h3 class=\"float-md-start mb-0\">Cover</h3>\n        <nav class=\"nav nav-masthead justify-content-center float-md-end\">\n        <a class=\"nav-link fw-bold py-1 px-0 active\" aria-current=\"page\" name=\"#\">Home</a>\n        <a class=\"nav-link fw-bold py-1 px-0\" name=\"#\">Projects</a>\n        <a class=\"nav-link fw-bold py-1 px-0\" name=\"#\">Contact</a>\n        </nav>\n    </div>\n</header>\n".trim();
+var _default = "\n<header class=\"masthead mb-auto\">\n    <div>\n        <h3 class=\"float-md-start mb-0\">Cover</h3>\n        <nav class=\"nav nav-masthead justify-content-center float-md-end\">\n            <a class=\"nav-link fw-bold py-1 px-0 active\" aria-current=\"page\" name=\"#\">Home</a>\n            <a class=\"nav-link fw-bold py-1 px-0\" name=\"#\">Projects</a>\n            <a class=\"nav-link fw-bold py-1 px-0\" name=\"#\">Contact</a>\n        </nav>\n    </div>\n</header>\n".trim();
 
 exports.default = _default;
 },{}],"src/js/footer.js":[function(require,module,exports) {
@@ -16047,7 +16047,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _default = "\n    <footer>\n        <p>Cover template for \n            <a href=\"https://getbootstrap.com/\" class=\"text-white\">Bootstrap</a>, \n            by <a href=\"https://twitter.com/mdo\" class=\"text-white\">@mdo</a>.\n        </p>\n    </footer>\n".trim();
+var _default = "\n    <footer class=\"mt-auto text-white-50\">\n        <p>Cover template for <a href=\"https://getbootstrap.com/\" class=\"text-white\">Bootstrap</a>, by <a href=\"https://twitter.com/mdo\" class=\"text-white\">@mdo</a>.</p>\n    </footer>\n".trim();
 
 exports.default = _default;
 },{}],"src/js/index.ts":[function(require,module,exports) {
@@ -16259,25 +16259,29 @@ var pages = {
   projects: require("_bundle_loader")(require.resolve('./src/js/projects.js')),
   contact: require("_bundle_loader")(require.resolve('./src/js/contact.js'))
 };
-document.body.innerHTML = "\n    <div>\n        ".concat(_header.default, "\n        <main role=\"main\" class=\"inner cover\"></main>\n        ").concat(_footer.default, "\n    </div>\n");
+document.body.innerHTML = "\n    <div class=\"cover-container d-flex w-100 h-100 p-3 mx-auto flex-column\">\n        ".concat(_header.default, "\n        <main role=\"main\" class=\"inner cover px-3\"></main>\n        ").concat(_footer.default, "\n    </div>\n");
 var mainEl = document.querySelector('main');
 
 var renderPage = /*#__PURE__*/function () {
   var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee(name) {
-    var template;
+    var temp, template;
     return _regeneratorRuntime().wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            _context.next = 2;
+            temp = pages[name];
+            debugger;
+            _context.next = 4;
             return pages[name];
 
-          case 2:
+          case 4:
             template = _context.sent;
-            mainEl.innerHTML = template;
-            mainEl.insertAdjacentElement('beforeend', "\n        <output>\n            Result of 1 + 2 -> <span>".concat((0, _index.sum)(1, 2), "</span>\n        </output>\n    "));
+            mainEl.innerHTML = template.default;
+            debugger;
+            mainEl.insertAdjacentHTML('beforeend', "\n        <output>\n            Result of 1 + 2 -> <span>".concat((0, _index.sum)(1, 2), "</span>\n        </output>\n    "));
+            debugger;
 
-          case 5:
+          case 9:
           case "end":
             return _context.stop();
         }
@@ -16312,7 +16316,7 @@ var initClickHandlers = function initClickHandlers() {
     }
   });
 };
-},{"core-js/stable":"node_modules/core-js/stable/index.js","regenerator-runtime/runtime":"node_modules/regenerator-runtime/runtime.js","./src/js/header.js":"src/js/header.js","./src/js/footer.js":"src/js/footer.js","./src/js/index.ts":"src/js/index.ts","./src/css/style.css":"src/css/style.css","./src/css/style.scss":"src/css/style.scss","_bundle_loader":"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-loader.js","./src/js/home.js":[["home.698dfa8b.js","src/js/home.js"],"src/js/home.js"],"./src/js/projects.js":[["projects.f2bfc7b0.js","src/js/projects.js"],"src/js/projects.js"],"./src/js/contact.js":[["contact.53e7da0c.js","src/js/contact.js"],"src/js/contact.js"]}],"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"core-js/stable":"node_modules/core-js/stable/index.js","regenerator-runtime/runtime":"node_modules/regenerator-runtime/runtime.js","./src/js/header.js":"src/js/header.js","./src/js/footer.js":"src/js/footer.js","./src/js/index.ts":"src/js/index.ts","./src/css/style.css":"src/css/style.css","./src/css/style.scss":"src/css/style.scss","_bundle_loader":"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-loader.js","./src/js/home.js":[["home.698dfa8b.js","src/js/home.js"],"home.698dfa8b.js.map","src/js/home.js"],"./src/js/projects.js":[["projects.f2bfc7b0.js","src/js/projects.js"],"projects.f2bfc7b0.js.map","src/js/projects.js"],"./src/js/contact.js":[["contact.53e7da0c.js","src/js/contact.js"],"contact.53e7da0c.js.map","src/js/contact.js"]}],"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -16340,7 +16344,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63132" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55243" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -16541,3 +16545,4 @@ module.exports = function loadJSBundle(bundle) {
 },{}],0:[function(require,module,exports) {
 var b=require("../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-loader.js");b.register("js",require("../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/loaders/browser/js-loader.js"));
 },{}]},{},["../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js",0,"index.js"], null)
+//# sourceMappingURL=/yandex_practicum.e31bb0bc.js.map

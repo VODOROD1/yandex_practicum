@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/js/contact.js"],"names":["trim"],"mappings":";;;;;;;eAAe,wGAGbA,IAHa","file":"contact.53e7da0c.js","sourceRoot":"..","sourcesContent":["export default `\r\n    <h1 class=\"cover-heading\">Contact page</h1>\r\n    <p class=\"lead\">Contact page content</p>\r\n`.trim()\r\n"]}
