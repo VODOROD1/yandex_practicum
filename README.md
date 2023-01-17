@@ -6,10 +6,29 @@
 
 Description: Web chat messenger as a telegram copy.
 
-| Command | Description |
-| --- | --- |
-| `npm run start` | Starts local server at 3000 port |
-| `npm run build` | Makes a build |
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm install` 
+
+Install all required dependencies 
+
+### `npm run dev`
+
+Runs the app in the development mode.\
+And in the console you can see where your dev server is available
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm run start`
+
+Builds the app for production to the `dist` folder and start node server on 3000 port.\
+
+### `npm run build`
+
+Builds the app for production to the `dist` folder.\
 
 
 <!-- [Deployed example (Netlify)](https://pet-chat.netlify.app) -->
