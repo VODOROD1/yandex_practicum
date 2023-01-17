@@ -1,6 +1,6 @@
 # yandex_practicum
 
-<img align="right" width="80" height="64" title="Author logo" src="./src/images/official photo.jpg">
+<img align="right" width="64" height="80" title="Author logo" src="./src/images/official photo.jpg">
 
 ## Practicum frontend: sprint_1 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mrHoft/middle.messenger.praktikum.yandex/tests.yml) [![Netlify Status](https://api.netlify.com/api/v1/badges/fdd7d98d-0b8e-4a26-a36c-87dfe5f27e61/deploy-status)](https://pet-chat.netlify.app)
 
