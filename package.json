@@ -2,11 +2,12 @@
   "name": "yandex_practicum",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel index.html --open",
-    "pro": "parcel build index.html --no-source-maps --no-cache"
+    "dev": "parcel src/index.html --open",
+    "pro": "parcel build src/index.html --no-source-maps --no-cache",
+    "style": "node-sass -w ./src/css/scss -o ./src/css/css"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
   ],
   "dependencies": {
     "core-js": "^3.25.2",
+    "node-sass": "^8.0.0",
     "regenerator-runtime": "^0.13.9"
   }
 }
