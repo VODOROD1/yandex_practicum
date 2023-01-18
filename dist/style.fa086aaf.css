@@ -1,0 +1,16 @@
+output {
+  color: #8e8e8e;
+  border: 1px solid #8e8e8e;
+  border-radius: 4px;
+  padding: 0.5rem;
+  user-select: none;
+  transition: transform 0.2s;
+}
+output span {
+  color: #eee;
+}
+output:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=/style.fa086aaf.css.map */

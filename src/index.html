@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web chat messenger</title>
     <link rel="stylesheet" href="./styles/main.css">
 <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">-->
 <!--    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/cover/">-->
@@ -16,6 +16,8 @@
 <!--    <link rel="manifest" href="https://getbootstrap.com/docs/5.2/assets/img/favicons/manifest.json">-->
 <!--    <link rel="mask-icon" href="https://getbootstrap.com/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">-->
 <!--    <link rel="icon" href="https://getbootstrap.com/docs/5.2/assets/img/favicons/favicon.ico">-->
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/scss/style.scss">
     <meta name="theme-color" content="#712cf9">
 </head>
 <body class="d-flex h-100 text-center text-bg-dark">
@@ -24,6 +26,12 @@
     </div>
     <div>
         <img src="./images/mountain.jpg" alt="mountain">
+    </div>
+    <div class="container">
+        <h1>Today is:</h1>
+        <span class="today"></span>
+        <h2><font color="#3AC1EF">and the image of the day:</font></h2>
+        <img align="center" src="https://source.unsplash.com/random/600x400" alt="unsplash random image">
     </div>
     <script src="index.js"></script>
 </body>
