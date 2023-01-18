@@ -1,6 +1,6 @@
-3129
+3141
 71C:\yandex\yandex_practicum\node_modules\caniuse-lite\data\regions\IT.js133185075014167992 0
-39C:\yandex\yandex_practicum\package.json133185075041503783 0
+39C:\yandex\yandex_practicum\package.json133185109387197065 0
 75C:\yandex\yandex_practicum\node_modules\caniuse-lite\data\features\xhtml.js133185075032898871 0
 65C:\yandex\yandex_practicum\node_modules\node-addon-api\napi-inl.h133185074982339573 0
 69C:\yandex\yandex_practicum\node_modules\@parcel\workers\lib\Handle.js133185074984885356 0
@@ -10,7 +10,7 @@
 89C:\yandex\yandex_practicum\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Makefile133185074985080019 0
 50C:\yandex\yandex_practicum\node_modules\is-extglob133185074978903527 1
 60C:\yandex\yandex_practicum\node_modules\msgpackr-extract\src133185074976213816 1
-31C:\yandex\yandex_practicum\dist133185082559638088 1
+31C:\yandex\yandex_practicum\dist133185163014078645 1
 39C:\yandex\yandex_practicum\src\today.js133185022384401970 0
 50C:\yandex\yandex_practicum\node_modules\@parcel\fs133185074985497861 1
 85C:\yandex\yandex_practicum\node_modules\caniuse-lite\data\features\arrow-functions.js133185074988887054 0
@@ -37,7 +37,7 @@
 62C:\yandex\yandex_practicum\node_modules\safe-buffer\index.d.ts133185074980198621 0
 36C:\yandex\yandex_practicum\.cache\f5133153232302322292 1
 32C:\yandex\yandex_practicum\.idea133165099728894081 1
-55C:\yandex\yandex_practicum\dist\contact.ffe3d548.js.map133185082559475984 0
+55C:\yandex\yandex_practicum\dist\contact.ffe3d548.js.map133185136743866706 0
 69C:\yandex\yandex_practicum\node_modules\@lezer\lr\dist\constants.d.ts133185074981608196 0
 33C:\yandex\yandex_practicum\static133153232987794239 1
 80C:\yandex\yandex_practicum\node_modules\caniuse-lite\data\features\webworkers.js133185075032320425 0
@@ -83,7 +83,7 @@
 66C:\yandex\yandex_practicum\node_modules\@parcel\workers\index.d.ts133185074990986081 0
 82C:\yandex\yandex_practicum\node_modules\@parcel\markdown-ansi\lib\markdown-ansi.js133185074976483094 0
 84C:\yandex\yandex_practicum\node_modules\caniuse-lite\data\features\resizeobserver.js133185075023931697 0
-52C:\yandex\yandex_practicum\dist\projects.29ccacaf.js133185082559186783 0
+52C:\yandex\yandex_practicum\dist\projects.29ccacaf.js133185136743250477 0
 39C:\yandex\yandex_practicum\src\css\scss133185059967014065 1
 94C:\yandex\yandex_practicum\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb.c133185074991580182 0
 55C:\yandex\yandex_practicum\node_modules\detect-libc\lib133185074980884300 1
@@ -108,11 +108,11 @@
 61C:\yandex\yandex_practicum\node_modules\readdirp\package.json133185074977495651 0
 58C:\yandex\yandex_practicum\node_modules\chalk\package.json133185074980218574 0
 62C:\yandex\yandex_practicum\node_modules\@parcel\types\index.js133185074978823735 0
-41C:\yandex\yandex_practicum\src\index.html133185082196910022 0
+41C:\yandex\yandex_practicum\src\index.html133185136752344513 0
 56C:\yandex\yandex_practicum\node_modules\dotenv\config.js133185074977295876 0
 72C:\yandex\yandex_practicum\node_modules\@parcel\core\lib\ParcelConfig.js133185074996575708 0
 71C:\yandex\yandex_practicum\node_modules\caniuse-lite\data\regions\SY.js133185075027558417 0
-39C:\yandex\yandex_practicum\src\index.js133185082069630282 0
+39C:\yandex\yandex_practicum\src\index.js133185230177493963 0
 57C:\yandex\yandex_practicum\node_modules\caniuse-lite\data133185075007582694 1
 33C:\yandex\yandex_practicum\src\js133153232335195132 1
 68C:\yandex\yandex_practicum\node_modules\@parcel\workers\lib\types.js133185074989725409 0
@@ -144,7 +144,7 @@
 38C:\yandex\yandex_practicum\src\css\css133157612972029769 1
 86C:\yandex\yandex_practicum\node_modules\caniuse-lite\data\features\css-text-spacing.js133185075003339804 0
 79C:\yandex\yandex_practicum\node_modules\caniuse-lite\data\features\audio-api.js133185074990018675 0
-50C:\yandex\yandex_practicum\src\css\scss\style.scss133185082890040602 0
+50C:\yandex\yandex_practicum\src\css\scss\style.scss133185158767379691 0
 86C:\yandex\yandex_practicum\node_modules\@parcel\core\src\requests\AssetGraphRequest.js133185074987872028 0
 71C:\yandex\yandex_practicum\node_modules\caniuse-lite\data\regions\CL.js133185074996485963 0
 54C:\yandex\yandex_practicum\node_modules\@parcel\fs\src133185074983373543 1
@@ -1806,7 +1806,7 @@
 80C:\yandex\yandex_practicum\node_modules\caniuse-lite\data\features\decorators.js133185075005144442 0
 84C:\yandex\yandex_practicum\node_modules\@parcel\workers\src\threads\ThreadsWorker.js133185074989210663 0
 77C:\yandex\yandex_practicum\node_modules\caniuse-lite\data\features\details.js133185075005204275 0
-56C:\yandex\yandex_practicum\dist\projects.29ccacaf.js.map133185082559466012 0
+56C:\yandex\yandex_practicum\dist\projects.29ccacaf.js.map133185136743459909 0
 87C:\yandex\yandex_practicum\node_modules\caniuse-lite\data\features\deviceorientation.js133185075005264123 0
 65C:\yandex\yandex_practicum\node_modules\@parcel\watcher\prebuilds133185074991999068 1
 86C:\yandex\yandex_practicum\node_modules\caniuse-lite\data\features\devicepixelratio.js133185075005313981 0
@@ -2096,6 +2096,7 @@
 66C:\yandex\yandex_practicum\node_modules\@parcel\cache\src\index.js133185074982391386 0
 80C:\yandex\yandex_practicum\node_modules\caniuse-lite\data\features\web-serial.js133185075031491525 0
 63C:\yandex\yandex_practicum\node_modules\@parcel\diagnostic\test133185074979714010 1
+55C:\yandex\yandex_practicum\dist\contact.75b43371.js.map133185109475920408 0
 79C:\yandex\yandex_practicum\node_modules\caniuse-lite\data\features\web-share.js133185075031541394 0
 78C:\yandex\yandex_practicum\node_modules\caniuse-lite\data\features\webauthn.js133185075031601238 0
 79C:\yandex\yandex_practicum\node_modules\caniuse-lite\data\features\webcodecs.js133185075031651096 0
@@ -2218,6 +2219,7 @@
 70C:\yandex\yandex_practicum\node_modules\@parcel\workers\lib\backend.js133185074976542931 0
 68C:\yandex\yandex_practicum\node_modules\@parcel\workers\lib\index.js133185074985409151 0
 101C:\yandex\yandex_practicum\node_modules\@parcel\package-manager\test\fixtures\packages\peers\index.js133185074986210033 0
+50C:\yandex\yandex_practicum\dist\index.3bdb9290.css133185109475671088 0
 83C:\yandex\yandex_practicum\node_modules\@parcel\workers\lib\process\ProcessChild.js133185074987231798 0
 84C:\yandex\yandex_practicum\node_modules\@parcel\workers\lib\process\ProcessWorker.js133185074987652611 0
 67C:\yandex\yandex_practicum\node_modules\@parcel\watcher\binding.gyp133185074985637508 0
@@ -2365,6 +2367,7 @@
 83C:\yandex\yandex_practicum\node_modules\@parcel\hash\parcel-hash.linux-x64-gnu.node133185074989825150 0
 84C:\yandex\yandex_practicum\node_modules\@parcel\hash\parcel-hash.linux-x64-musl.node133185074990816536 0
 61C:\yandex\yandex_practicum\node_modules\@parcel\graph\LICENSE133185074975372730 0
+56C:\yandex\yandex_practicum\dist\projects.11fa437c.js.map133185109475910440 0
 66C:\yandex\yandex_practicum\node_modules\@parcel\graph\package.json133185074985984592 0
 64C:\yandex\yandex_practicum\dist\yandex_practicum.e31bb0bc.js.map133153232302835891 0
 57C:\yandex\yandex_practicum\node_modules\@parcel\graph\src133185074985617562 1
@@ -2632,26 +2635,37 @@
 72C:\yandex\yandex_practicum\.cache\0b\1a257c6e140ec325b2831f960117bf.json133153232295626818 0
 55C:\yandex\yandex_practicum\node_modules\.bin\semver.ps1133185075034121257 0
 51C:\yandex\yandex_practicum\dist\contact.53e7da0c.js133153232302634174 0
-51C:\yandex\yandex_practicum\dist\contact.ffe3d548.js133185082559206729 0
+51C:\yandex\yandex_practicum\dist\contact.75b43371.js133185109475760856 0
+51C:\yandex\yandex_practicum\dist\contact.ffe3d548.js133185136743707138 0
+48C:\yandex\yandex_practicum\dist\home.0a8f73ea.js133185109475671088 0
+52C:\yandex\yandex_practicum\dist\home.0a8f73ea.js.map133185109475910440 0
 48C:\yandex\yandex_practicum\dist\home.698dfa8b.js133153232302674064 0
 52C:\yandex\yandex_practicum\dist\home.698dfa8b.js.map133153232302684037 0
-48C:\yandex\yandex_practicum\dist\home.d8cffb4c.js133185082559206729 0
-52C:\yandex\yandex_practicum\dist\home.d8cffb4c.js.map133185082559456046 0
+48C:\yandex\yandex_practicum\dist\home.d8cffb4c.js133185136743677623 0
+52C:\yandex\yandex_practicum\dist\home.d8cffb4c.js.map133185136743846763 0
+72C:\yandex\yandex_practicum\.cache\66\add0b3768324119a54350caa971274.json133153232297891325 0
+54C:\yandex\yandex_practicum\dist\index.3bdb9290.css.map133185109475900476 0
 72C:\yandex\yandex_practicum\.cache\a1\5d73128c22671564b05f5a4428a708.json133185045691553870 0
-50C:\yandex\yandex_practicum\dist\index.502a6a0c.css133185082559156863 0
-54C:\yandex\yandex_practicum\dist\index.502a6a0c.css.map133185082559446065 0
+50C:\yandex\yandex_practicum\dist\index.502a6a0c.css133185158767534850 0
+54C:\yandex\yandex_practicum\dist\index.502a6a0c.css.map133185158767614560 0
+36C:\yandex\yandex_practicum\.cache\20133153232296218452 1
+49C:\yandex\yandex_practicum\dist\index.93f4fdf5.js133185109475661107 0
+53C:\yandex\yandex_practicum\dist\index.93f4fdf5.js.map133185109475890771 0
 72C:\yandex\yandex_practicum\.cache\c7\e310b0877706072f6a4f0fec9b6cee.json133153232301172246 0
-49C:\yandex\yandex_practicum\dist\index.975ef6c8.js133185082559316414 0
-53C:\yandex\yandex_practicum\dist\index.975ef6c8.js.map133185082559496209 0
-42C:\yandex\yandex_practicum\dist\index.html133185082559196753 0
+49C:\yandex\yandex_practicum\dist\index.975ef6c8.js133185163013958806 0
+53C:\yandex\yandex_practicum\dist\index.975ef6c8.js.map133185163014058424 0
+42C:\yandex\yandex_practicum\dist\index.html133185136753163413 0
 48C:\yandex\yandex_practicum\dist\main.d2070829.js133185043642420136 0
 53C:\yandex\yandex_practicum\dist\mountain.a94dd9d9.jpg133184991235936482 0
+52C:\yandex\yandex_practicum\dist\projects.11fa437c.js133185109475691026 0
 47C:\yandex\yandex_practicum\dist\src.e31bb0bc.js133185043642430116 0
 72C:\yandex\yandex_practicum\.cache\80\9bff07bfcaa71d86dcfd2a67569af0.json133153232298530988 0
 51C:\yandex\yandex_practicum\dist\src.e31bb0bc.js.map133185045486113368 0
 54C:\yandex\yandex_practicum\dist\style.fa086aaf.css.map133185043642659506 0
 49C:\yandex\yandex_practicum\dist\style.fa086aaf.js133185043642420136 0
 53C:\yandex\yandex_practicum\dist\style.fa086aaf.js.map133185045486103404 0
+60C:\yandex\yandex_practicum\dist\yandex_practicum.59712999.js133185136734398337 0
+64C:\yandex\yandex_practicum\dist\yandex_practicum.59712999.js.map133185136734488093 0
 36C:\yandex\yandex_practicum\.cache\cb133153232301291925 1
 65C:\yandex\yandex_practicum\dist\yandex_practicum.e31bb0bc.css.map133153232302734879 0
 53C:\yandex\yandex_practicum\.idea\yandex_practicum.iml133153234648175551 0
@@ -2671,7 +2685,6 @@
 72C:\yandex\yandex_practicum\.cache\51\dfe7e5919bb551e864b10494ddd9c3.json133153232297338469 0
 36C:\yandex\yandex_practicum\.cache\1e133153232296128069 1
 36C:\yandex\yandex_practicum\.cache\1f133153232296168001 1
-36C:\yandex\yandex_practicum\.cache\20133153232296218452 1
 36C:\yandex\yandex_practicum\.cache\21133153232296238418 1
 36C:\yandex\yandex_practicum\.cache\22133184991205949859 1
 36C:\yandex\yandex_practicum\.cache\26133153232296318430 1
@@ -3009,7 +3022,6 @@
 72C:\yandex\yandex_practicum\.cache\68\a2bf9d39e00462050cdf5db3078a0c.json133153232298001234 0
 72C:\yandex\yandex_practicum\.cache\67\019706eac79aa511c905c9225c4d19.json133153232297951470 0
 72C:\yandex\yandex_practicum\.cache\66\8372449084447afecf7bbc6a4400f2.json133153232297881292 0
-72C:\yandex\yandex_practicum\.cache\66\add0b3768324119a54350caa971274.json133153232297891325 0
 72C:\yandex\yandex_practicum\.cache\66\b5869d1a192ffc84cef4a336048b6c.json133153232297911242 0
 72C:\yandex\yandex_practicum\.cache\66\ea5c33c0df825f72ea59c0fcfbc646.json133153232297921215 0
 72C:\yandex\yandex_practicum\.cache\66\fdd9bc5f1abda55a2f475fd6f15cd3.json133153232297941156 0

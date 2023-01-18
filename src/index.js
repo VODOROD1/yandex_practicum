@@ -1,7 +1,7 @@
-import getDay from './today.js'
-import header from './js/header.js'
-import footer from './js/footer.js'
-import { sum } from './js'
+import Handlebars from 'handlebars'
+import header from './pages/header.js'
+import footer from './pages/footer.js'
+import { sum } from './pages'
 import './css/scss/style.scss'
 
 const pages = {
@@ -20,6 +20,8 @@ document.body.innerHTML = `
 
 const mainEl = document.querySelector('main');
 
+renderPage('home');
+
 let renderPage = async function(name) {
     let temp = pages[name]
     debugger;
@@ -33,8 +35,6 @@ let renderPage = async function(name) {
     `)
     debugger;
 }
-
-renderPage('home');
 
 const toggleClass = (activeLink, currentLink) => {
     if(activeLink === currentLink) {

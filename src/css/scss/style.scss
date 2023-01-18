@@ -4,6 +4,11 @@ $bg: #000;
 $text: #fff;
 $primary-yellow: #f9f929;
 
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
 output {
     color: $color;
     border: 1px solid $color;
@@ -13,16 +18,12 @@ output {
     transition: transform .2s;
 
     & span {
-        color: #eee;
+        color: red;
     }
 
     &:hover {
         transform: scale(1.1);
     }
-}
-
-*, *::after, *::before {
-    box-sizing: border-box;
 }
 
 body {
