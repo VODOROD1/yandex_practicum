@@ -1,0 +1,1 @@
+{"mappings":"qYAAA,IAAAA,EAAe,8F","sources":["src/js/home.js"],"sourcesContent":["export default `\r\n    <h1 class=\"cover-heading\">Home page</h1>\r\n    <p class=\"lead\">Home page content</p>\r\n`.trim()\r\n"],"names":["$212038711ef1a1fe$export$2e2bcd8739ae039"],"version":3,"file":"home.0a8f73ea.js.map"}

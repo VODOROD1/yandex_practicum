@@ -2,9 +2,10 @@
   "name": "yandex_practicum",
   "version": "1.0.0",
   "description": "<img align=\"right\" width=\"64\" height=\"80\" title=\"Author logo\" src=\"./src/images/official photo.jpg\">",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,6 @@
   },
   "homepage": "https://github.com/VODOROD1/yandex_practicum#readme",
   "devDependencies": {
-    "sass": "^1.57.1"
+    "@parcel/transformer-sass": "^2.8.2"
   }
 }

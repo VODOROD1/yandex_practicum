@@ -1,0 +1,2 @@
+("undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:"undefined"!=typeof window?window:"undefined"!=typeof global?global:{}).parcelRequire2dba.register("17yst",(function(e,n){var t,o,a,l,d;t=e.exports,Object.defineProperty(t,"__esModule",{value:!0,configurable:!0}),o=e.exports,a="default",l=()=>i,Object.defineProperty(o,a,{get:l,set:d,enumerable:!0,configurable:!0});var i='\n    <h1 class="cover-heading">Contact page</h1>\n    <p class="lead">Contact page content</p>\n'.trim()}));
+//# sourceMappingURL=contact.75b43371.js.map

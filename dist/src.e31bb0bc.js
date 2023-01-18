@@ -128,11 +128,29 @@ var bro = function bro(greeting) {
   return "".concat(greeting, ", bro!");
 };
 exports.bro = bro;
+},{}],"today.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+function getDay() {
+  var today = new Date();
+  var daysArr = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  return daysArr[today.getDay()];
+}
+var _default = getDay;
+exports.default = _default;
 },{}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _bro = require("./bro");
+var _today = _interopRequireDefault(require("./today.js"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 document.querySelector('h1').textContent = (0, _bro.bro)('How is it going?');
+var day = document.querySelector('.today');
+day.innerHTML = (0, _today.default)();
 
 // import * as stable from "core-js/stable"
 // import * as runtime from "regenerator-runtime/runtime"
@@ -195,7 +213,7 @@ document.querySelector('h1').textContent = (0, _bro.bro)('How is it going?');
 //         }
 //     })
 // }
-},{"./bro":"bro.js"}],"../../../Users/mbelyakov/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./bro":"bro.js","./today.js":"today.js"}],"../../../Users/mbelyakov/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -220,7 +238,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54364" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55404" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
