@@ -20,5 +20,8 @@
   "homepage": "https://github.com/VODOROD1/yandex_practicum#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7"
   }
 }
