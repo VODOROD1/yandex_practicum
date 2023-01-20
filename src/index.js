@@ -10,13 +10,19 @@ const pages = {
     contact: import('./js/contact.js')
 }
 
-document.body.innerHTML = `
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        ${header}
-        <main role="main" class="inner cover px-3"></main>
-        ${footer}
-    </div>
-`
+let source = `
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    ${header}
+    <main role="main" class="inner cover px-3"></main>
+    ${footer}
+</`
+
+// document.body.innerHTML = source;
+let template = Handlebars.compile(source);
+
+let someData = {};
+let html = template(someData);
+document.body.innerHTML = html;
 
 const mainEl = document.querySelector('main');
 
