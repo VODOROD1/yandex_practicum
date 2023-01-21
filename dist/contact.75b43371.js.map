@@ -1,1 +1,0 @@
-{"mappings":"qYAAA,IAAAA,EAAe,oG","sources":["src/js/contact.js"],"sourcesContent":["export default `\r\n    <h1 class=\"cover-heading\">Contact page</h1>\r\n    <p class=\"lead\">Contact page content</p>\r\n`.trim()\r\n"],"names":["$0d112c912368aa01$export$2e2bcd8739ae039"],"version":3,"file":"contact.75b43371.js.map"}

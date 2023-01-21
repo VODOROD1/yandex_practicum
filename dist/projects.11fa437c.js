@@ -1,2 +1,0 @@
-("undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:"undefined"!=typeof window?window:"undefined"!=typeof global?global:{}).parcelRequire2dba.register("fdhez",(function(e,n){var o,l,t,a,r;o=e.exports,Object.defineProperty(o,"__esModule",{value:!0,configurable:!0}),l=e.exports,t="default",a=()=>d,Object.defineProperty(l,t,{get:a,set:r,enumerable:!0,configurable:!0});var d='\n    <h1 class="cover-heading">Projects page</h1>\n    <p class="lead">Projects page content</p>\n'.trim()}));
-//# sourceMappingURL=projects.11fa437c.js.map

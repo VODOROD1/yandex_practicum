@@ -1,1 +1,0 @@
-{"mappings":"qYAAA,IAAAA,EAAe,sG","sources":["src/js/projects.js"],"sourcesContent":["export default `\r\n    <h1 class=\"cover-heading\">Projects page</h1>\r\n    <p class=\"lead\">Projects page content</p>\r\n`.trim()\r\n"],"names":["$b13570399e5d363d$export$2e2bcd8739ae039"],"version":3,"file":"projects.11fa437c.js.map"}

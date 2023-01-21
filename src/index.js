@@ -5,9 +5,9 @@ import { sum } from './pages'
 import './css/scss/style.scss'
 
 const pages = {
-    home: import('./js/home.js'),
-    projects: import('./js/projects.js'),
-    contact: import('./js/contact.js')
+    home: import('./pages/home.js'),
+    projects: import('./pages/projects.js'),
+    contact: import('./pages/contact.js')
 }
 
 let source = `

@@ -1,2 +1,0 @@
-("undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:"undefined"!=typeof window?window:"undefined"!=typeof global?global:{}).parcelRequire2dba.register("2Qklw",(function(e,n){var o,l,a,t,d;o=e.exports,Object.defineProperty(o,"__esModule",{value:!0,configurable:!0}),l=e.exports,a="default",t=()=>i,Object.defineProperty(l,a,{get:t,set:d,enumerable:!0,configurable:!0});var i='\n    <h1 class="cover-heading">Home page</h1>\n    <p class="lead">Home page content</p>\n'.trim()}));
-//# sourceMappingURL=home.0a8f73ea.js.map
