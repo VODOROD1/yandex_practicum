@@ -4,7 +4,7 @@
   "description": "<img align=\"right\" width=\"64\" height=\"80\" title=\"Author logo\" src=\"./src/images/official photo.jpg\">",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel ./src/index.html",
+    "dev": "parcel ./src/index.hbs",
     "build": "parcel build ./src/index.html"
   },
   "repository": {
