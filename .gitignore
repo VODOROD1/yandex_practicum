@@ -1,6 +1,7 @@
 # compiled output
 /dist
 /.cache
+/.parcel-cache
 /tmp
 /out-tsc
 
